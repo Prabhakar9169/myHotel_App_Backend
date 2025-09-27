@@ -9,6 +9,7 @@
     "start": "node dist/server.js",
     "dev": "nodemon src/server.ts",
     "type-check": "tsc --noEmit",
+    "postinstall": "tsc",
     "clean": "rimraf dist",
     "build:watch": "tsc --watch",
     "seed:rooms": "ts-node src/scripts/seedRooms.ts",
