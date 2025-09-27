@@ -10,7 +10,7 @@ import { protect } from '../middleware/auth';
 const router = Router();
 
 // All booking routes require authentication
-router.use(protect);
+// router.use(protect);
 
 // POST /api/bookings - Create new booking
 router.post('/', createBooking);
